@@ -7,6 +7,6 @@ const server = express();
 
 server.use(express.json());
 
-server.use("/", postRouter);
+server.use("/api/posts", postRouter);
 
 module.exports = server;
